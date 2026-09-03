@@ -1,0 +1,56 @@
+@prefix sppg:  <https://imamssi.github.io/data-sppg/id/sppg/> .
+@prefix obs:   <https://imamssi.github.io/data-sppg/id/observasi/> .
+@prefix stat:  <https://imamssi.github.io/data-sppg/id/statistik/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+# =================================================================
+# 1. DEKLARASI ONTOLOGI / DOKUMEN SKEMA
+# =================================================================
+<https://imamssi.github.io/data-sppg/id/statistik/>
+    a               owl:Ontology ;
+    rdfs:label      "Ontologi Statistik Penyerapan Pekerja SPPG"@id ;
+    rdfs:comment    "Skema kustom untuk mendefinisikan variabel statistik relawan/pekerja pada Satuan Pelayanan Pemenuhan Gizi (SPPG)."@id .
+
+# =================================================================
+# 2. DEFINISI KELAS (CLASSES)
+# Mengatur kategori objek utama dalam dataset
+# =================================================================
+
+sppg:SPPG
+    a               rdfs:Class ;
+    rdfs:label      "Satuan Pelayanan Pemenuhan Gizi"@id ;
+    rdfs:comment    "Entitas organisasi atau yayasan yang menyelenggarakan kegiatan SPPG."@id .
+
+# =================================================================
+# 3. DEFINISI PROPERTI / ATRIBUT (PROPERTIES)
+# Mengatur atribut data dan tipe data yang diperbolehkan
+# =================================================================
+
+# --- A. Properti Relasi Antar-Entitas (Object Property) ---
+stat:sppg
+    a               owl:ObjectProperty ;
+    rdfs:label      "SPPG Terkait"@id ;
+    rdfs:comment    "Menghubungkan data observasi ke entitas SPPG/Yayasan terkait."@id ;
+    rdfs:range      sppg:SPPG .
+
+# --- B. Properti Nilai Data / Nilai Angka (Datatype Property) ---
+stat:relawanLakiLaki
+    a               owl:DatatypeProperty ;
+    rdfs:label      "Jumlah Relawan Laki-laki"@id ;
+    rdfs:comment    "Banyaknya pekerja atau relawan berjenis kelamin laki-laki dalam satuan orang."@id ;
+    rdfs:range      xsd:integer .
+
+stat:relawanPerempuan
+    a               owl:DatatypeProperty ;
+    rdfs:label      "Jumlah Relawan Perempuan"@id ;
+    rdfs:comment    "Banyaknya pekerja atau relawan berjenis kelamin perempuan dalam satuan orang."@id ;
+    rdfs:range      xsd:integer .
+
+stat:totalRelawan
+    a               owl:DatatypeProperty ;
+    rdfs:label      "Total Relawan"@id ;
+    rdfs:comment    "Jumlah keseluruhan relawan (penjumlahan relawan laki-laki dan perempuan)."@id ;
+    rdfs:range      xsd:integer .
