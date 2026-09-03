@@ -1,0 +1,95 @@
+sppg:yayasan-indonesia-nikmat-anak-sehat
+a	sppg:SPPG ;
+rdfs:label	"YAYASAN INDONESIA NIKMAT ANAK SEHAT"@id .
+
+obs:penyerapan-yayasan-indonesia-nikmat-anak-sehat
+    	a	qb:Observation ;
+    	stat:sppg	sppg:yayasan-indonesia-nikmat-anak-sehat ;
+    	stat:relawanLakiLaki	"19"^^xsd:integer ;
+    	stat:relawanPerempuan	"28"^^xsd:integer ;
+    	stat:totalRelawan	"47"^^xsd:integer .
+
+sppg:yayasan-nutrisi-anak-sehat
+a	sppg:SPPG ;
+rdfs:label	"YAYASAN NUTRISI ANAK SEHAT"@id .
+
+obs:penyerapan-yayasan-nutrisi-anak-sehat
+    	a	qb:Observation ;
+    	stat:sppg	sppg:yayasan-nutrisi-anak-sehat ;
+    	stat:relawanLakiLaki	"18"^^xsd:integer ;
+    	stat:relawanPerempuan	"29"^^xsd:integer ;
+    	stat:totalRelawan	"47"^^xsd:integer .
+
+sppg:yayasan-cahaya-semesta-bersama
+a	sppg:SPPG ;
+rdfs:label	"YAYASAN CAHAYA SEMESTA BERSAMA"@id .
+
+obs:penyerapan-yayasan-cahaya-semesta-bersama
+    	a	qb:Observation ;
+    	stat:sppg	sppg:yayasan-cahaya-semesta-bersama ;
+    	stat:relawanLakiLaki	"19"^^xsd:integer ;
+    	stat:relawanPerempuan	"28"^^xsd:integer ;
+    	stat:totalRelawan	"47"^^xsd:integer .
+
+sppg:yayasan-durrotul-kareem-nusantara
+a	sppg:SPPG ;
+rdfs:label	"YAYASAN DURROTUL KAREEM NUSANTARA"@id .
+
+obs:penyerapan-yayasan-durrotul-kareem-nusantara
+    	a	qb:Observation ;
+    	stat:sppg	sppg:yayasan-durrotul-kareem-nusantara ;
+    	stat:relawanLakiLaki	"26"^^xsd:integer ;
+    	stat:relawanPerempuan	"21"^^xsd:integer ;
+    	stat:totalRelawan	"47"^^xsd:integer .
+sppg:yayasan-kemala-bhayangkari
+a	sppg:SPPG ;
+rdfs:label	"YAYASAN KEMALA BHAYANGKARI"@id .
+
+obs:penyerapan-yayasan-kemala-bhayangkari
+    	a	qb:Observation ;
+    	stat:sppg	sppg:yayasan-kemala-bhayangkari ;
+    	stat:relawanLakiLaki	"14"^^xsd:integer ;
+    	stat:relawanPerempuan	"33"^^xsd:integer ;
+    	stat:totalRelawan	"47"^^xsd:integer .
+
+sppg:yayasan-safira-indonesia-raya
+a	sppg:SPPG ;
+rdfs:label	"YAYASAN SAFIRA INDONESIA RAYA"@id .
+
+obs:penyerapan-yayasan-safira-indonesia-raya
+    	a	qb:Observation ;
+    	stat:sppg	sppg:yayasan-safira-indonesia-raya ;
+    	stat:relawanLakiLaki	"24"^^xsd:integer ;
+    	stat:relawanPerempuan	"23"^^xsd:integer ;
+    	stat:totalRelawan	"47"^^xsd:integer .
+
+sppg:yayasan-nurul-qomar
+a	sppg:SPPG ;
+rdfs:label	"YAYASAN NURUL QOMAR"@id .
+
+obs:penyerapan-yayasan-nurul-qomar
+    	a	qb:Observation ;
+    	stat:sppg	sppg:yayasan-nurul-qomar ;
+    	stat:relawanLakiLaki	"16"^^xsd:integer ;
+    	stat:relawanPerempuan	"31"^^xsd:integer ;
+    	stat:totalRelawan	"47"^^xsd:integer .
+
+sppg:yayasan-karya-lima-bersaudara
+a	sppg:SPPG ;
+rdfs:label	"YAYASAN KARYA LIMA BERSAUDARA"@id .
+obs:penyerapan-yayasan-karya-lima-bersaudara
+    	a	qb:Observation ;
+    	stat:sppg	sppg:yayasan-karya-lima-bersaudara ;
+    	stat:relawanLakiLaki	"20"^^xsd:integer ;
+    	stat:relawanPerempuan	"26"^^xsd:integer ;
+    	stat:totalRelawan	"46"^^xsd:integer .
+
+sppg:yayasan-asta-cita-harapan-bangsa
+a	sppg:SPPG ;
+rdfs:label	"YAYASAN ASTA CITA HARAPAN BANGSA"@id .
+obs:penyerapan-yayasan-asta-cita-harapan-bangsa
+    	a	qb:Observation ;
+    	stat:sppg	sppg:yayasan-asta-cita-harapan-bangsa ;
+    	stat:relawanLakiLaki	"13"^^xsd:integer ;
+    	stat:relawanPerempuan	"34"^^xsd:integer ;
+    	stat:totalRelawan	"47"^^xsd:integer .
