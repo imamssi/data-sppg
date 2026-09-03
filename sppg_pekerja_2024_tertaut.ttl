@@ -1,0 +1,35 @@
+sppg:yayasan-asta-cita-harapan-bangsa
+a	sppg:SPPG ;
+rdfs:label	"YAYASAN ASTA CITA HARAPAN BANGSA"@id .
+owl:sameAs	(http://www.wikidata.org/entity/Q3196024)
+
+obs:penyerapan-yayasan-asta-cita-harapan-bangsa
+    	a	qb:Observation ;
+    	stat:sppg	sppg:yayasan-asta-cita-harapan-bangsa ;
+    	stat:relawanLakiLaki	"13"^^xsd:integer ;
+    	stat:relawanPerempuan	"34"^^xsd:integer ;
+    	stat:totalRelawan	"47"^^xsd:integer .
+
+sppg:yayasan-nurul-qomar
+a	sppg:SPPG ;
+rdfs:label	"YAYASAN NURUL QOMAR"@id .
+owl:sameAs	(http://www.wikidata.org/entity/Q310860)
+
+obs:penyerapan-yayasan-nurul-qomar
+    	a	qb:Observation ;
+    	stat:sppg	sppg:yayasan-nurul-qomar ;
+    	stat:relawanLakiLaki	"16"^^xsd:integer ;
+    	stat:relawanPerempuan	"31"^^xsd:integer ;
+    	stat:totalRelawan	"47"^^xsd:integer .
+
+sppg:yayasan-qomar-lubuk-pakam
+a	sppg:SPPG ;
+rdfs:label	"YAYASAN QOMAR LUBUK PAKAM"@id .
+owl:sameAs	(http://www.wikidata.org/entity/Q3264645)
+
+obs:penyerapan-yayasan-qomar-lubuk-pakam
+    	a	qb:Observation ;
+    	stat:sppg	sppg: yayasan-qomar-lubuk-pakam ;
+    	stat:relawanLakiLaki	"10"^^xsd:integer ;
+    	stat:relawanPerempuan	"37"^^xsd:integer ;
+    	stat:totalRelawan	"47"^^xsd:integer .
